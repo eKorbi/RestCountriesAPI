@@ -1,0 +1,123 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/white-logo.png" />
+</head>
+    <title>National Geographic</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="home">
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <img src="assets/images/logo-removebg-preview.png" alt="Main-logo"/>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">HOME</a></li>
+                        <li><a href="#about" class="nav-design">ABOUT</a></li>
+                        <li><a href="#" class="nav-design" id="discover" >DISCOVER</a></li>
+                        <li><a href="#contact" class="nav-design">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="intro">
+                <div class="intro-title">
+                    <h1>National geographic</h1>
+                    <h3>Discover the path to knowledge</h3>
+                <div class="home-button"> 
+                    <a href="#" id="enroll">Get Started</a>
+                </div>
+                </div>
+                <div class="popup">
+                    <div class="popup-content">
+                    <h3>User Login</h3>
+                    <img id="close" src="./assets/images/close-icon.jpg" alt="close-icon">
+                    <input type="text" placeholder="Username" id="username" autocomplete="off" required>
+                    <input type="email" placeholder="Email" id="email" autocomplete="off" required>
+                    <input type="password" placeholder="Password" id="password" autocomplete="off" required>
+                    <input id="bn" type="submit" value="LOGIN" onclick="validate()"></>
+                </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-detail">
+            <div class="about-image">
+                <img src="assets/images/germanu.jpeg" alt="Building">
+            </div>
+            <div class="info">
+                <h3>ABOUT</h3>
+                <p>National Geographic (formerly National Geographic Channel) is an American pay television network and flagship channel owned by the National Geographic Global Networks unit of Disney General Entertainment Content and National Geographic Partners, a joint venture between The Walt Disney Company  and the National Geographic Society with the operational management handled by Walt Disney Television.</p>
+                <br/>
+                <a href="#" id="read">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="ideas" id="ideas">
+        <div class="idea1">
+            <div class="idea1-image">
+                <img  src="assets/images/bg4.jpeg" alt="house design" id="img1" onmouseover="newImage()" onmouseout="oldImage()">
+            </div>
+            <div class="idea1-details">
+                <p>Marvellous Nature View</p>
+            </div>
+        </div>
+        <div class="idea2">
+            <div class="idea2-image">
+                <img id="img2"src="assets/images/view.jpg" alt="house design" onmouseover="newImage1()" onmouseout="oldImage1()">
+            </div>
+            <div class="idea2-details">
+                <p>Modern | Cohesive Architecture</p>
+            </div>
+        </div>
+        <div class="idea3">
+            <div class="idea3-image">
+                <img id="img3" src="assets/images/bg3.webp" alt="house design" onmouseover="newImage2()" onmouseout="oldImage2()">
+            </div>
+            <div class="idea3-details">
+                <p>Mountain | Significant top view</p>
+            </div>
+        </div>
+        <div class="idea4">
+            <div class="idea4-image">
+                <img id="img4" src="assets/images/builid.jpg" alt="house design" onmouseover="newImage3()" onmouseout="oldImage3()">
+            </div>
+            <div class="idea4-details">
+                <p>Amazing | Ancient buildings</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="form">
+            <div class="contact-info">
+                <h3>Contact us</h3>
+                <p>National Geographic has its headquarters in America, its main offices are in California.<br/>Email address: <span>nationalGeographic@gmail.com</span></p>
+                <a href="#">Subscribe</a>
+            </div>
+            <div class="location">
+                <h3>Asian Tv Channel</h3>
+                <p>Latest world news</p>
+                <p>National Geographic Magazine</p>
+                <p>American Tv channel</p>
+                <p>Country documentaries </p>
+                <p>History | Culture</p>
+                <p>British Tv Channel</p> 
+            </div>
+            <div class="more-info">
+                <h3>Connect with us on social media</h3>
+                <div class="socia-media">
+                <img src="assets/images/media-icon.png" alt="Media icon">
+            </div>
+            </div>
+        </div>
+    </section>
+    <script defer src="./assets/script.js "></script>
+</body>
+
+</html>
